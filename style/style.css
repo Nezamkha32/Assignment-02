@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+
+}
+.hamburger{
+     display: none; 
+}
+.nav-list{
+    display: flex;
+    gap: 20px;
+    flex: 1;
+    justify-content: center;
+}
+
+.nav-items{
+    list-style: none;
+
+}
+.nav-items > a{
+   text-decoration:none ;
+   color: #FFFFFF;
+}
+.nav-container{
+    display: flex;
+    background-color:#412567;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 20px 80px;
+}
+.logo {
+    font-weight:800;
+    font-size: 26px;
+    color: #FFFFFF;
+}
+
+.logo>span {
+    color:rgb(254, 23, 23);
+}
+.p-btn{
+    padding: 5px;
+    background:linear-gradient(135deg,#9100F8,#FB09B4,#F7E93F);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration:none ;
+}
+.b-btn{
+    padding: 5px;
+    color: #FFFFFF;
+    border:1px solid burlywood ;
+    border-radius: 16px;
+    text-align: center;
+    background-color: rgba(52, 20, 20, 0.5);
+    margin-left: 10px;
+    max-width: 120px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.b-btn>img{
+    width: 16px;
+    height: 16px;
+    padding-right:5px ;
+}
+.p-btn>img{
+    width: 16px;
+    height: 16px;
+}
+/* banner-section */
+.banner{
+    background: url("../assets/hero-bg.png") no-repeat center/cover;
+    width: 100%;
+    min-height: 360px;
+
+}
+.circle{
+    position: relative;
+    top: 100px;
+}
+.microphone{
+    position: relative;
+    bottom: 200px;
+}
+.new{
+    position: relative;
+    bottom: 400px;
+   left: 130px;
+    background-color: #8f7d05e9;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 0 10px 23px rgba(14, 6, 14, 0.979);
+    width: 70px;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    text-align: center;
+    height: 700px;
+}
+.b-conte>h3 {
+    font-weight: 600;
+    font-size: 76px;
+    margin-bottom: 10px;
+
+}
+.btn-cont{
+    margin-bottom: 40px;
+    top: 40px;
+
+}
+
+/* all header */
+.header{
+    font-weight: 400;
+    font-size: 36px;
+    margin: 18px auto;
+}
+.h5h{
+    font-weight: 300;
+    font-size: 36px;
+    margin: 18px auto;
+}
+
+/* about-section */
+
+.about{
+    background-color: #1A0B2E;
+    padding: 70px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.number{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    max-width: 1200px;
+    margin: 20px auto;
+}
+/* why-section */
+.why-container{
+    background-color:#110325 ;
+    padding: 80px 60px;
+    color: #FFFFFF;
+    text-align: center;
+    
+}
+.grid-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    text-align: left;
+    gap: 20px;
+    box-shadow: 0 10px 18px rgba(5, 5, 5, 0.3);
+    max-width: 1200px;
+    margin: 20px auto;
+}
+.grid-card div{
+    border-radius:20px ;
+    background-color: #1e0233;
+    padding: 26px;
+}
+.box-sr{
+    grid-column: span 2;
+}
+.box-sc{
+    grid-row: span 2;
+}
+/* episode-section */
+.episode{
+    background-color: rgb(11, 5, 43);
+    padding: 26px;
+    box-shadow: 0 10px 23px rgba(0,0,0,0.4);
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+
+.episode-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 40px auto;
+    max-width: 1200px;
+}
+/* .episode-card{
+    border-radius: 10px;
+    background-color: #250D44;
+    text-align: left;
+    margin-right: 20px;
+    align-content: center;
+    width: 380px;
+    height: 440px;
+
+} */
+.episode-card {
+  border-radius: 10px;
+  background-color: #250D44;
+  text-align: left;
+  margin-right: 20px;
+  width: 100%;
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+}
+
+.video{
+    position: relative;
+    padding-top: 56.25%;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.video iframe{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+.v-cont{
+    padding-left: 15px;
+}
+.time{
+    color: #00FF88;
+    margin-top: 10px;
+}
+/* alex-section */
+
+.alex{
+    box-shadow: 0 10px 23px rgba(0,0,0,0.4);
+    color: #FFFFFF;
+    padding: 60px;
+}
+.alex-box{
+    display: flex;
+    gap: 10px;
+    background-color: #351165;
+    border: none;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: left;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+.ankor-list{
+    margin-top: 20px;
+}
+.ankor-list> a{
+    margin-right: 5px;
+    width: 26px;
+    height: 26px;
+    border:1px solid burlywood ;
+    border-radius:50% ;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background: url("../assets/footer-bg.png") no-repeat center/cover;
+    width: 100%;
+    min-height: 400px;
+    justify-content: center;
+    align-content: center;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.footer-links a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px;
+    color: #FFFFFF;
+}
+
+footer>p{
+    margin-top: 24px;
+}
+
+.bg-cover {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.p-btn:focus, .b-btn:focus, .footer-links a:focus {
+  outline: 2px solid #F7E93F;
+  outline-offset: 4px;
+}
+.b-btn:hover {
+    background-color: rgba(52, 20, 20, 0.7); 
+    transform: scale(1.05);
+}
+.p-btn:hover {
+     background-color: rgba(52, 20, 20, 0.7);
+    transform: scale(1.05);
+}
+@media (max-width: 576px) {
+    .b-conte>h3 { 
+    font-size: 48px; 
+    }
+    .banner{
+    background: url("../assets/hero-bg.png") no-repeat center/cover;
+    width: 100%;
+    min-height: 466px;
+    position: relative;
+    }
+    .p-btn{
+    display: none;
+    }
+
+  .hamburger{
+    display: block;
+    cursor: pointer;
+ }
+  .episode-container{
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .number{
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .grid-card{
+    grid-template-columns: 1fr;
+  }
+
+  .alex-box{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-list{
+    display: none;
+  }
+}
+
