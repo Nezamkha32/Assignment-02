@@ -263,30 +263,27 @@ main{
 /* alex-section */
 
 .alex{
-    box-shadow: 0 10px 23px rgba(0,0,0,0.4);
-    color: #FFFFFF;
-    padding: 60px;
+    text-align: center;
+    margin: 10px 20px;
+}
+.alex-box>img{
+    max-width: 100%
 }
 .alex-box{
     display: flex;
     gap: 10px;
     background-color: #351165;
-    border: none;
     border-radius: 10px;
-    padding: 40px;
     text-align: left;
-    max-width: 1200px;
-    margin: 20px auto;
 }
 .ankor-list{
-    margin-top: 20px;
+margin-top: 10px;
 }
 .ankor-list> a{
-    margin-right: 5px;
-    width: 26px;
-    height: 26px;
-    border:1px solid burlywood ;
-    border-radius:50% ;
+    border:2px solid burlywood ;
+    border-radius: 50%;
+    padding: 10px;
+    
 }
 footer{
     display: flex;
