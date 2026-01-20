@@ -283,25 +283,19 @@ margin-top: 10px;
     border:2px solid burlywood ;
     border-radius: 50%;
     padding: 10px;
-    
 }
+/* footer     */
+
 footer{
-    display: flex;
-    flex-direction: column;
     background: url("../assets/footer-bg.png") no-repeat center/cover;
-    width: 100%;
     min-height: 400px;
     justify-content: center;
     align-content: center;
-    color: #FFFFFF;
     text-align: center;
-    padding-bottom: 10px;
 }
-.footer-links a {
-    text-decoration: none;
-    padding: 10px;
-    margin: 20px;
-    color: #FFFFFF;
+.footer-links{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
 }
 
 footer>p{
@@ -324,6 +318,9 @@ footer>p{
     display: flex;
     flex-direction: row;
 }
+    .b-conte>h3 { 
+    font-size: 48px; 
+    }
 
 /* .about */
 .about{
@@ -346,29 +343,23 @@ footer>p{
     gap: 20px;
   }
 
-
-
-
-
-
-
-
-
-
-    .b-conte>h3 { 
-    font-size: 48px; 
-    }
-    .banner{
-    background: url("../assets/hero-bg.png") no-repeat center/cover;
-    width: 100%;
-    min-height: 466px;
-    position: relative;
-    }
-
-
+ /* Alex */
   .alex-box{
     flex-direction: column;
     text-align: center;
   }
+  /* footer */
+  .footer-links{
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    color: #FFFFFF;
+  }
+    .banner{
+    width: 100%;
+    min-height: 266px;
+    position: relative;
+    }
+
+
 
 }
