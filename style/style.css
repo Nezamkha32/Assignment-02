@@ -223,39 +223,19 @@ main{
 
 
 .episode{
-    padding: 26px;
-    box-shadow: 0 10px 23px rgba(0,0,0,0.4);
-    color: #FFFFFF;
     text-align: center;
 }
-
-
-
 .episode-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    margin: 40px auto;
-    max-width: 1200px;
+    margin: 10px 20px;
 }
-/* .episode-card{
-    border-radius: 10px;
-    background-color: #250D44;
-    text-align: left;
-    margin-right: 20px;
-    align-content: center;
-    width: 380px;
-    height: 440px;
 
-} */
 .episode-card {
   border-radius: 10px;
   background-color: #250D44;
   text-align: left;
   margin-right: 20px;
-  width: 100%;
-  max-width: 380px;
-  display: flex;
-  flex-direction: column;
 }
 
 .video{
@@ -278,6 +258,8 @@ main{
     color: #00FF88;
     margin-top: 10px;
 }
+
+
 /* alex-section */
 
 .alex{
@@ -361,6 +343,21 @@ footer>p{
     grid-template-rows: repeat(1,1fr);
 }
 
+/* .episode */
+  .episode-container{
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
     .b-conte>h3 { 
     font-size: 48px; 
     }
@@ -372,10 +369,6 @@ footer>p{
     }
 
 
-  .episode-container{
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
   .alex-box{
     flex-direction: column;
     text-align: center;
