@@ -66,10 +66,11 @@ main{
     transition: all 0.3s ease;
     text-decoration:none ;
 }
-.p-btn:focus, .b-btn:focus, .footer-links a:focus {
+.p-btn:focus, .b-btn:focus,.p-btn-b:focus, .footer-links a:focus {
   outline: 2px solid #F7E93F;
   outline-offset: 4px;
 }
+.p-btn-b:hover,
 .b-btn:hover,
 .p-btn:hover{
     background-color: rgba(52, 20, 20, 0.7); 
