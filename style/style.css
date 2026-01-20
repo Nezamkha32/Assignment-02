@@ -267,7 +267,8 @@ main{
     margin: 10px 20px;
 }
 .alex-box>img{
-    max-width: 100%
+    max-width: 100%;
+    padding:20px 40px;
 }
 .alex-box{
     display: flex;
